@@ -23,7 +23,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class hooks extends LibGobal {
 	WebDriver driver;
-
+	public static void dummy() {
+		System.out.println("tottly dummy");
+	}
 	@Before
 	public void beforescenario() {
 		launchbrower();
